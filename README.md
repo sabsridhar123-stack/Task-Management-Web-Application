@@ -24,13 +24,21 @@ pip3 install virtualenv
 # Install Git
 git --version
 
-### 2. AWS Account Setup
+### AWS Account Setup
 - AWS Free Tier account active
 - AWS CLI installed and configured
 - Basic understanding of Linux commands
  
-### 3. Required Tools
+### Required Tools
 - Code editor (VS Code recommended)
 - Terminal/Command Prompt
 - Web browser
-  
+#### Initialize Git Repository
+git init
+git add .
+git commit -m "Initial project structure"
+ 
+# Connect to GitHub (create repo on GitHub first)
+git remote add origin https://github.com/yourusername/aws-task-manager.git
+git push -u origin main
+  git
