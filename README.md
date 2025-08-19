@@ -17,18 +17,14 @@ We'll build a **Task Management Web Application** that demonstrates all AWS serv
 ### 1. Local Development Environment
 # Install Python 3.8+
 python3 --version
- 
 # Install pip and virtual environment
 pip3 install virtualenv
- 
 # Install Git
 git --version
-
 ### AWS Account Setup
 - AWS Free Tier account active
 - AWS CLI installed and configured
 - Basic understanding of Linux commands
- 
 ### Required Tools
 - Code editor (VS Code recommended)
 - Terminal/Command Prompt
@@ -37,8 +33,7 @@ git --version
 git init
 git add .
 git commit -m "Initial project structure"
- 
 # Connect to GitHub (create repo on GitHub first)
 git remote add origin https://github.com/yourusername/aws-task-manager.git
 git push -u origin main
-  git
+git
